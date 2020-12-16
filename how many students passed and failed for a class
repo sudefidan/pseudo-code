@@ -1,0 +1,20 @@
+Write pseudo code to find how many students passed and failed for a class. (Give 10 arbitrary grade points as samples and give arbitrary passing/failing points for comparison).
+
+ANSWER:
+
+
+Step 1:Begin                                                             /*Start the program*/
+Step 2: Input n                                                         /*Read number of students*/
+Step 3: counter=0,sump=0,sumf=0                     /*Counter is 0,sump is 0,sumf is 0*/
+Step 4: Input scores of student(x,y)                    /*Read scores of student*/
+Step 5: Sum= x+y ,                                                  /*Sum is student’s two testscores(x,y)*/
+Step 6:Avarage=sum/2                                         /*Calculate to avarage of sum as sum/2*/
+Step 6: If avarage ≥ 60, go to step 8, if not go to step 9                 
+                                                                                 /*If avarage ≥ 60,go to step 8;if not go to step9*/
+Step 8: sump +=1                                                 /*sump is sump plus 1*/
+Step 9: sumf +=1                                                  /*sumf is sump plus 1*/
+Step7:If counter<n, go back to step 4              /*If the counter is less than n, go back to step 4*/
+Step 9: Output =sump                                         /* Print Sump to the screen */
+Step 11: Output =sumf                                        /* Print Sumf to the screen */
+Step 12: Stop                                                         /*Stop the program*/
+
