@@ -1,0 +1,29 @@
+Design an algorithm of the electromagnetic spectrum bands program as follows. The program will run in two different cases. 
+In the first case the student will enter the frequency value, the program will give the name of the electromagnetic wave according to Table 1.
+In the second case, the wave name will be entered, the frequency range values will be displayed on the screen. 
+The program will start by asking which case will be chosen. If the user enters a value rather than 1 and 2, the program will end. otherwise it will continue. 
+
+Table 1. Some Electromagnetic Waves within Each Frequency Band
+
+Name	            The range of frequency
+Gamma rays	      300 EHz - 30 EHz
+X-rays	          30 EHz - 30 PHz
+Ultraviole	      30 PHz - 300 THz
+Infrared	        300 THz - 300 GHz
+
+ANSWER:
+Step 1:Start                                                        /*Start the program*/
+Step 2: Enter the number 1 or 2 as 1= enter the frequency value, display the name of the electromagnetic wave and 2=enter the wave name, display the frequency range values
+                                                                            /*Read option as 1( the student will enter the frequency value, display the name of the electromagnetic wave) and 2(the wave name will be entered, display the frequency range values)
+Step3: If number=1,go to step 4 or if not go to step 6                
+                                                                            /*If number which is given by user is 1,go to step4 or if not go to step 6*/
+Step4: Input the range of frequency           /*Read the frequency value*/
+Step5: Output the name of electromagnetic wave
+                                                                           /*Print the name of electromagnetic wave */
+Step6: If number=2, go to step 7 or if not go to step 9              
+                                                                           /*If number which is given by user is 2,go to step 7 or if not go to step 9*/
+Step7: Input the name of electromagnetic wave
+                                                                         /*Read the name of electromagnetic wave */
+Step 8: Output the range of frequency    /*Print the frequency value*/   
+Step9: Stop                                                   /*Stop the program*/
+
