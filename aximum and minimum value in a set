@@ -1,0 +1,18 @@
+Write pseudo code to find maximum and minimum value in a set of 5 numbers given by the user.
+
+ANSWER:
+
+Step 1:Begin                                                                     /*Start the program*/
+Step2:counter=0                                                             /*Counter is 0*/
+Step3: Input array[counter]                                          /*Read array[counter]*/
+Step4:counter++                                                             /*Counter is  counter plus counter*/
+Step5:If counter<5, go back to step3;if not go to step6
+                                                                                           /*If counter is less than 5, go back to step 3; if not go to step 6*/  
+Step6:max=array[0], min=array[0],counter=1          /*max is array[0],min is array[0] and counter is 1*/
+Step7:If array[counter]>max, max=array[counter]  /*If array[counter] is more than max, max is array[counter]*/  
+Step8:If array[counter]<min,min=array[counter].   /*If array[counter] is less than min, min is array[counter]*/  
+Step9:counter++                                                             /*Counter is  counter plus counter*/
+Step10:If counter<5, go back to step4;if not, go to step11
+                                                                                          /*If counter is less than 5, go back to step 4; if not go to step11*/  
+Step11:Output max,min                                             /* Print max and min to the screen */
+Step 12: Stop                                                                /*Stop the program*/
