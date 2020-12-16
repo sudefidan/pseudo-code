@@ -1,0 +1,18 @@
+Write pseudo code to find most frequent digit for a long integer number what is given by the user
+(Hint: Use remainder when the integer is divided by 10).
+
+ANSWER:
+
+Step 1:Start                                                                                            /*Start the program*/
+Step2:Input (x)                                                                                       /*Read the integer number(x) which is given by user*/
+Step3: freq[10]={0,0,0,0,0,0,0,0,0,0}                                                /*freq[10] has 0,0,0,0,0,0,0,0,0,0*/
+Step 4:remainder =x mod10                                                              /*remainder is x’s mod10*/
+Step5:freq[remainder]+=1                                                                 /*freq[remainder] is freq[remainder] plus 1*/
+Step6:x=x/10                                                                                        /*x is x divided by 10*/
+Step7:If x=0, go to step8,if not, go back to step 4                        /If x is 0, go to step8,if not, go back to step 4*/
+Step8:max=freq[0], counter=1                                               /*max is freq[0] and counter is 1*/
+Step9:If freq [counter]>max, max=freq[counter]               /*If freq [counter] is more than max, max is freq[counter]*/
+Step10:counter++                                                                    /*counter is counter plus 1*/
+Step11:If counter<10, go back to step9.                             /*If counter is less than 10, go back to step9*/
+Step12:Output max                                                                 /*Print max to the screen */
+Step13: Stop                                                                                       /*Stop the program*/
