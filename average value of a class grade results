@@ -1,0 +1,13 @@
+Write pseudo code to find the average value of a class grade results (Give at least 10 arbitrary grade points as samples).
+
+ANSWER:
+
+Step 1:Begin                                                             /*Start the program*/
+Step 2: Input n                                                        /*Read number of students*/
+Step 3: Sum = 0, counter=0                                  /*Sum is 0 and counter is 0*/
+Step 4: Input score of student                            /*Read score of student*/
+Step 5: Sum= sum+ score,counter++                 /*Sum is sum and score of student, counter is counter++*/
+Step 6: If counter<n, go back to step 4             /*If the counter is less than n, go back to step 4*/
+Step 7: Avarage=sum/n                                       /*Calculate to avarage of sum as sum/n*/
+Step 8: Output Avarage                                       /* Print Avarage to the screen */
+Step 9: Stop                                                          /*Stop the program*/ 
