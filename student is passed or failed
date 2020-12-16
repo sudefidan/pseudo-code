@@ -1,0 +1,18 @@
+Write pseudo code to find a student is passed or failed 
+(Using a grade point as the condition for example, 60 point is the criteria for failing/passing. Determine it by yourself).
+
+ANSWER:
+
+
+Step 1: Begin                                                             /*Start the program*/
+Step 2: Input x,y                                                      /*Read the 2 results of the testscores and assign it to variable x and y*/
+Step 3: Sum = x+y                                                   /*Calculate to sum of x and y*/
+Step 4 : Avarage = sum/2                                      /*Calculate to avarage of sum as sum/2*/
+Step 5: If avarage ≥ 60, go to step 7                    /*If avarage ≥ 60 go to step 7*/
+Step 6: If avarage < 60, go to step 8             /*If avarage < 60 go to step 8*/
+Step 7: R = PASSED                                                / Result (R) is PASSED*/
+Step 8: R = FAILED                                                 / Result (R) is FAILED*/
+Step 9: Output (R)                                                /* Print R to the screen */
+Step 10: Stop                                                        /* Stop the program */
+
+                             
