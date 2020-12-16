@@ -1,0 +1,56 @@
+Table 2 shows the prerequisite courses and their prerequisites. For each of the five courses marked in light blue in the table,
+design an algorithm that determines whether the student can take those courses.
+Hint: Use the Table when you do your conditions (if/else system). Determination will be using 0 and 1 numbers. 
+For instance, if the student passed MAT101, then make MAT101 equals to 1.
+Let the student had fundamental courses which are MAT101, INF211, ELEC225, ELM231, MATH214, MAT215 (give them 0 or 1 values). 
+By using fundamental courses, determine advanced courses states. Finally, find out the student can have ELEC416, ELEC418, ELEC421, ELEC425, ELEC426 or not. 
+
+Table 2. The List of Some Prerequisite Courses
+
+ÖN KOŞULLU DERS                                                     	 ÖN KOŞUL
+
+MAT 102 Matematik II	                                                 MAT 101
+MAT 201 Matematik  III	                                               MAT 102 ve MAT 101
+INF 211	Algorithms and Programming I	                                 bu dersin ön şartı bulunmamaktadır
+INF 212	Algorithms and Programming II	                                 INF 211
+ELEC 225	Circuit Theory I	                                           bu dersin ön şartı bulunmamaktadır
+ELM 231	Elektronik Elemanlar	                                         bu dersin ön şartı bulunmamaktadır
+ELEC 236	Electronics I	                                               ELEC 225 ve ELM 231
+ELM 341	Elektromagnetik Alan Teorisi	                            	   MAT 201
+ELM 342	Elektromagnetik Dalga Teorisi	                                 ELM 341, MAT 215
+ELEC 416	Numerical Methods for Electromagnetics	                     ELM341 ELM342 ve MATH 214
+ELEC 418	Advanced C++ For Engineering And Basic Sciences              INF 212
+ELEC 421	Sensors and Actuators	                              	       bu dersin ön şartı bulunmamaktadır
+ELEC 425	Power Electronics	                                           ELM231 ve ELM236
+ELEC 426	Introduction to Electric Power Systems and Smart Grids	     bu dersin ön şartı bulunmamaktadır
+
+
+ANSWER:
+
+Step1:Begin                                              /*Start the program*/
+Step2:Enter the course code                /*Read the course code which is marked in light blue in the table*/ 
+Step3:If course code=ELEC416, go to step4 ;if not, go to step7 
+                                                                 /*If course code=ELEC416, go to step 4 or if not, go to step 7*/
+Step4: If ELM341=1 and ELM342=1 and MATH214=1,go to step5;if not go to step6
+                                                                /*If the student passed ELM341 and ELM342,go to step 5 or if not, go to step 6*/
+Step5:OUTPUT CHOOSEN                  /*Print the CHOOSEN*/
+Step6: OUTPUT NOT CHOOSEN        /*Print the NOT CHOOSEN*/
+Step7:If course code=ELEC418,go to step8 ;if not, go to step11
+                                                                /*If course code=ELEC418, go to step 8 or if not, go to step 11*/
+Step8:If INF212=1, go to step9 or if not, go to step10 
+                                                               /*If the student passed INF212 ,go to step9 or if not, go to step10*/
+Step9:OUTPUT CHOOSEN                 /*Print the CHOOSEN*/
+Step10:OUTPUT NOT CHOOSEN      /*Print the NOT CHOOSEN*/
+Step11:If course code=ELEC421, go to step 12; if not, go to step13
+                                                               /*If course code=ELEC421, go to step 12or if not, go to step 13*/
+Step12: OUTPUT CHOOSEN             /*Print the CHOOSEN*/     
+Step13: If course code=ELEC425, go to step 14;if not, go to step17
+                                                              /*If course code=ELEC425, go to step 14 or if not, go to step 17*/
+Step14:If ELM231=1,ELM235=1, go to step 15 ;if not,go to step 16
+                                                             /*If the student passed ELM231 and ELM235,go to step 15 or if not, go to step 16*/
+Step15:OUTPUT CHOOSEN              /*Print the CHOOSEN*/
+Step16:OUTPUT NOT CHOOSEN     /*Print the NOT CHOOSEN*/
+Step17:If course code=ELEC426, go to step 18 or if not, go back to step2
+                                                              /*If course code=ELEC426, go to step 18 or if not, go to step 19*/
+Step18:OUTPUT CHOOSEN              /*Print the CHOOSEN*/
+Step19:Stop                                       /*Stop the program*/
