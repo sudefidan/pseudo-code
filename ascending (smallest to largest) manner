@@ -1,0 +1,33 @@
+Write pseudo code for a system which shorts three numbers by ascending (smallest to largest) manner.
+Note: Do not use arrays.
+
+ANSWER:
+
+
+Step 1:Begin                                             /*Start the program*/
+Step 2: Input (a,b,c)                               /*Read numbers (a,b,c)*/
+Step3 : max=a                                       /*max is a*/
+Step4: If b>max, b=max and go to step 5 or if no, go to step 9   
+                                                               /*If b is more than max(a), b is max and go to step 5 or if not, go to step 9*/
+Step5:If c>max,c=max and go to step 6 or if not,go to step12
+                                                             /*If c is more than max(b), c is max and go to step 6 or if not, go to step 12*/
+Step6:c=max; if b>a, a=min and go to step 8 or if not,go to step 7
+                                                          /*c is max;if b is more than a, a is min and go to step 8 or if not, go to step 7*/
+Step7: Output max=c,median=b,min=a
+                                                          /* Print “max is c,median is b and min is a” to the screen */
+Step8: Output max=c,median=a,min=b
+                                                         / * Print “max is c,median is a and min is b” to the screen */
+Step9: max=a, if c>b,min=b and go to step 10 or if not, go to step 11
+                                                        /*a is max;if c is more than b, b is min and go to step 10 or if not, go to step 11*/
+Step 10: Output max=a,median=c,min=b
+                                                       /*Print “max is a,median is c and min is b” to the screen */
+Step11: Output max=a,median=b,min=c
+                                                      /*Print “max is a,median is b and min is c” to the screen */
+Step12:max=b, if c>a,min=a and go to step 13 or if not, go to step 14 
+                                                     /*b is max;if c is more than a, a is min and go to step 13 or if not, go to step 14*/
+Step13:Output max=b,median=c,min=a
+                                                     /*Print “max is b,median is c and min is a” to the screen */
+Step14: Output max=b,median=a,min=c
+                                                    /*Print “max is b,median is a and min is c” to the screen */
+Step 15: Stop                            /*Stop the program*/
+
