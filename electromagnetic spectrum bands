@@ -1,9 +1,9 @@
-Design an algorithm of the electromagnetic spectrum bands program as follows. The program will run in two different cases. 
+Pseudo code of the electromagnetic spectrum bands program as follows. The program will run in two different cases. 
 In the first case the student will enter the frequency value, the program will give the name of the electromagnetic wave according to Table 1.
 In the second case, the wave name will be entered, the frequency range values will be displayed on the screen. 
 The program will start by asking which case will be chosen. If the user enters a value rather than 1 and 2, the program will end. otherwise it will continue. 
 
-Table 1. Some Electromagnetic Waves within Each Frequency Band
+Table: Some Electromagnetic Waves within Each Frequency Band
 
 Name	            The range of frequency
 Gamma rays	      300 EHz - 30 EHz
