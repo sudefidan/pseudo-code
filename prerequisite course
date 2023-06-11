@@ -1,29 +1,24 @@
-Table 2 shows the prerequisite courses and their prerequisites. For each of the five courses marked in light blue in the table,
+Table shows the prerequisite courses and their prerequisites. For each of courses,
 design an algorithm that determines whether the student can take those courses.
-Hint: Use the Table when you do your conditions (if/else system). Determination will be using 0 and 1 numbers. 
-For instance, if the student passed MAT101, then make MAT101 equals to 1.
-Let the student had fundamental courses which are MAT101, INF211, ELEC225, ELM231, MATH214, MAT215 (give them 0 or 1 values). 
-By using fundamental courses, determine advanced courses states. Finally, find out the student can have ELEC416, ELEC418, ELEC421, ELEC425, ELEC426 or not. 
 
-Table 2. The List of Some Prerequisite Courses
+Table: The List of Some Prerequisite Courses
 
-ÖN KOŞULLU DERS                                                     	 ÖN KOŞUL
+LESSONS.                                                             	 PREREQUISITES
 
-MAT 102 Matematik II	                                                 MAT 101
-MAT 201 Matematik  III	                                               MAT 102 ve MAT 101
-INF 211	Algorithms and Programming I	                                 bu dersin ön şartı bulunmamaktadır
+MAT 102 Mathematics II	                                               MAT 101
+MAT 201 Mathematics  III	                                             MAT 102 ve MAT 101
+INF 211	Algorithms and Programming I	                                 None
 INF 212	Algorithms and Programming II	                                 INF 211
-ELEC 225	Circuit Theory I	                                           bu dersin ön şartı bulunmamaktadır
-ELM 231	Elektronik Elemanlar	                                         bu dersin ön şartı bulunmamaktadır
+ELEC 225 Circuit Theory I	                                             None
+ELM 231	Electronic Elements.                                           None
 ELEC 236	Electronics I	                                               ELEC 225 ve ELM 231
-ELM 341	Elektromagnetik Alan Teorisi	                            	   MAT 201
-ELM 342	Elektromagnetik Dalga Teorisi	                                 ELM 341, MAT 215
+ELM 341	Electromagnetic Field Theory.                              	   MAT 201
+ELM 342	Electromagnetic Wave Theory.                                   ELM 341, MAT 215
 ELEC 416	Numerical Methods for Electromagnetics	                     ELM341 ELM342 ve MATH 214
 ELEC 418	Advanced C++ For Engineering And Basic Sciences              INF 212
-ELEC 421	Sensors and Actuators	                              	       bu dersin ön şartı bulunmamaktadır
+ELEC 421	Sensors and Actuators	                              	       None
 ELEC 425	Power Electronics	                                           ELM231 ve ELM236
-ELEC 426	Introduction to Electric Power Systems and Smart Grids	     bu dersin ön şartı bulunmamaktadır
-
+ELEC 426	Introduction to Electric Power Systems and Smart Grids	     None
 
 ANSWER:
 
